@@ -1,4 +1,4 @@
-package cacheMain
+package main
 
 import (
     "fmt"
@@ -8,6 +8,6 @@ import (
 
 func main() {
     // Get a greeting message and print it.
-    message := greetings.Hello("Gladys")
+    message := cacheMain.Hello("Gladys")
     fmt.Println(message)
 }
